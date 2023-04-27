@@ -1,0 +1,25 @@
+.header {
+  &__wrapper {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    padding: 14px 0;
+    z-index: 2;
+    right: 0;
+    left: 0;
+
+    .container {
+      max-width: 1280px;
+    }
+  }
+
+  &__button {
+    background: linear-gradient(180deg, #f95acc 0%, rgba(113, 61, 255, 0) 100%),
+      rgba(255, 255, 255, 0.02);
+    border: var(--table-border-color) 1px solid;
+    border-radius: 80px;
+    padding: 8px 25px;
+  }
+}
